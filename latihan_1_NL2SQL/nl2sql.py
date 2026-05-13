@@ -80,7 +80,6 @@ SQL:
 
     sql = response.choices[0].message.content.strip()
 
-    # bersihin kalau model masih bandel
     sql = sql.replace('```sql', '')
     sql = sql.replace('```', '')
     sql = sql.replace('SQL:', '')

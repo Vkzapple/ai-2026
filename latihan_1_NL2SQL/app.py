@@ -40,7 +40,6 @@ def ask(data: Question):
             'message': hasil['message']
         }
 
-    # AI bikin jawaban natural
     jawaban = generate_natural_answer(
         pertanyaan,
         hasil['data']
