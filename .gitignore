@@ -1,3 +1,4 @@
+.env
 decision-tree.py
 diabetes_gui.py
 diabetes.csv
